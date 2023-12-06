@@ -1,0 +1,13 @@
+module: src.client.agents.HTTPAgent
+parameters:
+  url: https://autoagents-ca-east.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2023-09-01-preview
+  headers:
+    Content-Type: application/json
+    api-key: 2864ce19a46540b2a0943df607ca6225
+  body:
+    temperature: 0
+  prompter:
+    name: role_content_dict
+    args:
+      agent_role: assistant
+  return_format: "{response[choices][0][message][content]}"

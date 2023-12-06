@@ -1,23 +1,12 @@
-gpt-3.5-turbo-0613:
-    import: "./openai-chat.yaml"
+gpt-4:
+    import: "./openai-chat-azure-4.yaml"
     parameters:
-        name: "gpt-3.5-turbo-0613"
+        name: "gpt-4"
         body:
-            model: "gpt-3.5-turbo-0613"
             max_tokens: 512
-
-text-davinci-003:
-    import: "./openai-text.yaml"
+gpt-35-turbo:
+    import: "./openai-chat-azure-35.yaml"
     parameters:
-        name: "text-davinci-003"
+        name: "gpt-35-turbo"
         body:
-            model: "text-davinci-003"
-            max_tokens: 512
-
-text-davinci-002:
-    import: "./openai-text.yaml"
-    parameters:
-        name: "text-davinci-002"
-        body:
-            model: "text-davinci-002"
             max_tokens: 512

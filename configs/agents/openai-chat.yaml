@@ -11,3 +11,4 @@ parameters:
     args:
       agent_role: assistant
   return_format: "{response[choices][0][message][content]}"
+  

@@ -8,4 +8,4 @@ definition:
   agent:
     import:
       - ../agents/api_agents.yaml
-      - ../agents/fs_agent.yaml
+      # - ../agents/fs_agent.yaml
